@@ -4,13 +4,13 @@
     <groupId>gnu.io.rxtx</groupId>
     <artifactId>rxtxSerial-test</artifactId>
     <packaging>jar</packaging>
-    <version>2.2-stabilize-SNAPSHOT</version>
+    <version>2.4.1.bekey</version>
     <name>rxtxSerial integration tests</name>
     <url>http://rxtx.qbang.org</url>
     <parent>    
         <groupId>gnu.io.rxtx</groupId>
         <artifactId>rxtx-parent</artifactId>
-        <version>2.2-stabilize-SNAPSHOT</version>
+        <version>2.4.1.bekey</version>
     </parent>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

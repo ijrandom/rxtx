@@ -309,15 +309,7 @@ public final class LibraryLoader {
     private String determineOsClass() {
         final String osName = System.getProperty("os.name");
 
-        if ("Windows 95".equals(osName)
-                || "Windows 98".equals(osName)
-                || "Windows Me".equals(osName)
-                || "Windows NT".equals(osName)
-                || "Windows NT (unknown)".equals(osName) // Vista on Java 1.4
-                || "Windows Vista".equals(osName) // Vista on newer Java
-                || "Windows XP".equals(osName)
-                || "Windows 2000".equals(osName)
-                || "Windows 2003".equals(osName)) {
+        if (osName.toLowerCase().contains("windows")) {
             return OS_WINDOWS;
         } else if ("Mac OS X".equals(osName)) {
             return OS_MACOSX;
